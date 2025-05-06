@@ -53,3 +53,10 @@ Z.callback.register("zyke_vending:PayForDrink", function(plyId, model, itemIdx)
 		return false, "notEnoughMoney"
 	end
 end)
+
+RegisterNetEvent("zyke_lib:OnCharacterLogout", function(plyId)
+	local identifier = Z.getIdentifier(plyId)
+	if (not identifier) then return end
+
+	authorizedPlayers[identifier] = nil
+end)
