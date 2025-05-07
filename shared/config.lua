@@ -158,8 +158,8 @@ Config.Settings = {
 		[`prop_vend_water_01`] = {
 			interactOffset = vector3(0.0, -0.8, 0.8),
 			items = {
-				-- {name = "water", prop = "water_bottle", price = 1},
-				{name = "water_50cl", prop = "water_bottle", price = 1}, -- For those that use zyke_consumable
+				{name = "water", prop = "water_bottle", price = 1},
+				-- {name = "water_50cl", prop = "water_bottle", price = 1}, -- For those that use zyke_consumable
 			}
 		},
 

@@ -34,7 +34,13 @@
 	stack = false
 },
 
-["meteorite_bar"] = {
+["coffee"] = { -- ng_proc_coffee_01a
+	label = "Coffee",
+	weight = 250,
+	stack = false
+},
+
+["meteorite_bar"] = { -- prop_choc_meto
 	label = "Meteorite Bar",
 	weight = 200,
 	stack = false
