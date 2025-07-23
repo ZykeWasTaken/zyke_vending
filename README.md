@@ -9,7 +9,8 @@ A refurbished and very simplistic in-game interaction for acquiring items from v
 This resource was meant to be included inside of our upcoming zyke_consuambles, but was made into it's own resource as I believe others may be interested in it.
 
 ## Showcase
-- [Video Link](https://youtu.be/aMrV6kI6f4I)
+
+-   [Video Link](https://youtu.be/aMrV6kI6f4I)
 
 ## Dependencies
 
