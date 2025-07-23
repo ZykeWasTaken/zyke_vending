@@ -4,27 +4,26 @@ lua54 "yes"
 author "discord.gg/zykeresources"
 version "1.0.1"
 
-shared_scripts {
-	"@zyke_lib/imports.lua",
-	"shared/config.lua"
+shared_script "@zyke_lib/imports.lua"
+
+files {
+	"locales/*.lua",
+
+	-- Make sure these files can be found
+	"shared/*.lua",
+	"client/*.lua",
 }
 
-client_script {
+loader {
+	"shared/config.lua",
+
 	"client/main.lua",
-	"client/debug.lua"
-}
+	"client/debug.lua",
 
-server_script {
 	"server/main.lua",
 	"server/validate_items.lua"
 }
 
-files {
-	"locales/*.lua"
-}
-
-dependencies {
-	"zyke_lib"
-	-- No target system listed here as we support multiple alternatives with zyke_lib
-	-- The files won't start & will throw an error if no target system is found
-}
+dependency "zyke_lib"
+-- No target system listed here as we support multiple alternatives with zyke_lib
+-- The files won't start & will throw an error if no target system is found
