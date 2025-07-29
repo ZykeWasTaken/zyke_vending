@@ -20,6 +20,7 @@
         "Target",
         "Context",
         "Items",
-        "ResName"
+        "ResName",
+        "HasLoaderFinished"
     ]
 }
