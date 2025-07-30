@@ -1,5 +1,3 @@
-while (not HasLoaderFinished) do Wait(10) end
-
 if (not Target) then
 	error("This requires a target system.")
 end
